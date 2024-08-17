@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlowBeauty - Cosméticos Naturais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>GlowBeauty</h1>
+        <p>Cosméticos naturais para sua beleza e bem-estar</p>
+    </header>
+
+    <section id="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="produto">
+            <img src="images/hidratante.jpg" alt="Hidratante Facial Natural">
+            <h3>Hidratante Facial Natural</h3>
+            <p>Feito com ingredientes orgânicos para manter sua pele hidratada e saudável.</p>
+        </div>
+        <div class="produto">
+            <img src="images/serum.jpg" alt="Sérum Revitalizante">
+            <h3>Sérum Revitalizante</h3>
+            <p>Fórmula enriquecida com vitamina C para um brilho natural e rejuvenescimento da pele.</p>
+        </div>
+    </section>
+
+    <section id="equipe">
+        <h2>Conheça a Equipe</h2>
+        <div class="membro">
+            <img src="images/ana.jpg" alt="Ana Souza - CEO">
+            <h3>Ana Souza</h3>
+            <p>CEO</p>
+        </div>
+        <div class="membro">
+            <img src="images/marcos.jpg" alt="Marcos Lima - CTO">
+            <h3>Marcos Lima</h3>
+            <p>CTO</p>
+        </div>
+        <div class="membro">
+            <img src="images/clara.jpg" alt="Clara Ribeiro - Designer de Produtos">
+            <h3>Clara Ribeiro</h3>
+            <p>Designer de Produtos</p>
+        </div>
+    </section>
+
+    <section id="inscricao">
+        <h2>Cadastre-se para saber mais</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required>
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 GlowBeauty. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
